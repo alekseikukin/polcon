@@ -1,0 +1,16 @@
+% SinglePaddleTransformation(0, pi)
+Q1 = pi/2-pi/4;
+Q2 = pi/2;
+Q3 = pi/2;
+T1 = SinglePaddleTransformation(Q1, pi/2);
+T2 = SinglePaddleTransformation(Q2, pi);
+T3 = SinglePaddleTransformation(Q3, pi/2);
+% T = T3 * T2 * T1 
+% T = T3 * T2 * T1 * [1; -1i]
+% [V,D] = eig(T);
+% [d,ind] = sort(diag(D));
+% T_eig = D(ind,ind);
+
+% T_abs = abs(T)
+% T_ang = angle(T)
+% MPC1 - 1 - 2 - FC - APC - D

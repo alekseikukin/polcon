@@ -1,0 +1,13 @@
+function betta_1 = Betta(N0, N1, angle_1, lambda, d)
+% betta - phase variation
+if max(size(angle_1)) > 1
+    betta_1 = 2 .* pi .* d .* ...
+        sqrt((N1 .^ 2) - ((N0 .^ 2) .* (sin(angle_1) .^ 2))) ./ ...
+        lambda;
+else
+    betta_1 = 2 .* pi .* d .* ...
+        sqrt((N1 .^ 2) - ((N0 .^ 2) * (sin(angle_1) ^ 2))) ./ ...
+        lambda;
+end
+end
+
