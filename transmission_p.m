@@ -1,4 +1,5 @@
 function t_p = transmission_p(angle_1, lambda, N0, N1, varargin)
+% transmission_p - return p component of transmittion
 % N0 - top refrative index
 % N1 -  bottom refractive index
 % fi -angle of incident

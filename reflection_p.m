@@ -1,4 +1,5 @@
 function r_p = reflection_p(fi, lambda, N0, N1, varargin)
+% reflection_p - return p component of reflection
 % N0 - top refrative index
 % N1 -  bottom refractive index
 % fi -angle of incident

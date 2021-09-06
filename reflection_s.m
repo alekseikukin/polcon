@@ -1,4 +1,5 @@
 function r_s = reflection_s(fi, lambda, N0, N1, varargin)
+% reflection_s - return s component of reflection
 % fi - angle of incident
 % lambda  - wavelength [nm]
 % N0 - top refrative index
