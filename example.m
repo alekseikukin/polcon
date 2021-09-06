@@ -1,7 +1,7 @@
 % angles of paddles of polarization controller
 Q1 = 0 + pi/4; % angle of paddle 1
-Q2 = 0 - pi/2; % angle of paddle 2
-Q3 = 0; % angle of paddle 3
+Q2 = 0; % angle of paddle 2
+Q3 = 0 - pi/4; % angle of paddle 3
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 disp('initial Jones vector')
 E = [rand()*exp(1i*pi* rand()); rand()*exp(1i*pi* rand())]
