@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.toolbox" plugin-version="1.0">
-  <configuration file="G:\My Drive\matlab_prog\polarization\Polarization toolbox.prj" location="G:\My Drive\matlab_prog\polarization" name="Polarization toolbox" target="target.toolbox" target-name="Package Toolbox">
+  <configuration build-checksum="3686043888" file="G:\My Drive\matlab_prog\polarization\Polarization toolbox.prj" location="G:\My Drive\matlab_prog\polarization" name="Polarization toolbox" target="target.toolbox" target-name="Package Toolbox">
     <param.appname>Polarization toolbox</param.appname>
     <param.authnamewatermark>Aleksei Kukin</param.authnamewatermark>
     <param.email />
@@ -24,7 +24,7 @@ ReflectionIsotropicSurface - return Jones matrix for reflection from isotropic m
 
 TransmittionIsotropicSurface - return Jones matrix for transmittion throught isotropic multilayer surface</param.description>
     <param.screenshot />
-    <param.version>1.0</param.version>
+    <param.version>1.00</param.version>
     <param.output>${PROJECT_ROOT}\Polarization toolbox.mltbx</param.output>
     <param.products.name />
     <param.products.id />
@@ -92,7 +92,6 @@ TransmittionIsotropicSurface - return Jones matrix for transmittion throught iso
       <param.email />
       <param.company />
       <param.screenshot />
-      <param.version />
       <param.output />
       <param.products.name />
       <param.products.id />
@@ -127,6 +126,7 @@ TransmittionIsotropicSurface - return Jones matrix for transmittion throught iso
       <file>${PROJECT_ROOT}</file>
     </fileset.rootdir>
     <fileset.rootfiles>
+      <file>${PROJECT_ROOT}\.github</file>
       <file>${PROJECT_ROOT}\Betta.m</file>
       <file>${PROJECT_ROOT}\CheckAndTurn.m</file>
       <file>${PROJECT_ROOT}\demos.xml</file>
