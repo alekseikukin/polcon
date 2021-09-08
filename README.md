@@ -1,24 +1,24 @@
-# Polarization toolbox
-
+<br />
+<p align="center">
+  <a href="https://github.com/alekseikukin/piezotb">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a>
+  <h1 align="center">Polarization toolbox
+</h1>
+    <p align="center">
 Toolbox for simple discription of a polarazers and a polarization controllers.
+  </p>
+</p>
 
-SinglePaddleTransformation - return Jones matrix of a single paddle of
-polarization controller or retardancy plate (quarter or half wavelength)
+## Usage
+See the [example](example.m) .
 
-RetardanceOfPaddle - return retardace of a single paddle of polarization
-controller
+## List of functions
+See the [list of functions](list_of_functions.md) .
 
-Polarizer - return Jones matrix of a polarizer placed at an angle
+## License
+Distributed under the MIT License. See [`LICENSE`](LICENSE) for more information.
 
-LosslessFiber - retur Jones matrix for lossless fiber transmission
+## Contact
+Project Link: [alekseikukin/polcon](https://github.com/alekseikukin/polcon) .
 
-PolarizerRC - return Jones matrix of Right circular polarizer placed at
-an angle tetta
-
-PolarizationController - return jones matrix for polarization controller
-
-ReflectionIsotropicSurface - return Jones matrix for reflection from
-isotropic multilayer surface 
-
-TransmittionIsotropicSurface - return Jones matrix for transmittion
-throught isotropic multilayer surface 
