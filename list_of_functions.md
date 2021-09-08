@@ -5,7 +5,7 @@ polarization controller or retardancy plate (quarter or half wavelength)
 [RetardanceOfPaddle](RetardanceOfPaddle.m) - return retardace of a single paddle of polarization
 controller
 
-[Polarizer](Polarizer.m) - return Jones matrix of a polarizer placed at an angle
+[PolarizerRC](PolarizerRC.m) - return Jones matrix of a polarizer placed at an angle
 
 [LosslessFiber](LosslessFiber.m) - retur Jones matrix for lossless fiber transmission
 
