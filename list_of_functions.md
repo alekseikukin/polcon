@@ -1,21 +1,21 @@
-
-SinglePaddleTransformation - return Jones matrix of a single paddle of
+# List of functions
+[SinglePaddleTransformation](SinglePaddleTransformation.m) - return Jones matrix of a single paddle of
 polarization controller or retardancy plate (quarter or half wavelength)
 
-RetardanceOfPaddle - return retardace of a single paddle of polarization
+[RetardanceOfPaddle](RetardanceOfPaddle.m) - return retardace of a single paddle of polarization
 controller
 
-Polarizer - return Jones matrix of a polarizer placed at an angle
+[Polarizer](Polarizer.m) - return Jones matrix of a polarizer placed at an angle
 
-LosslessFiber - retur Jones matrix for lossless fiber transmission
+[LosslessFiber](LosslessFiber.m) - retur Jones matrix for lossless fiber transmission
 
-PolarizerRC - return Jones matrix of Right circular polarizer placed at
+[PolarizerRC](PolarizerRC.m) - return Jones matrix of Right circular polarizer placed at
 an angle tetta
 
-PolarizationController - return jones matrix for polarization controller
+[PolarizationController](PolarizationController.m) - return jones matrix for polarization controller
 
-ReflectionIsotropicSurface - return Jones matrix for reflection from
+[ReflectionIsotropicSurface](ReflectionIsotropicSurface.m) - return Jones matrix for reflection from
 isotropic multilayer surface 
 
-TransmittionIsotropicSurface - return Jones matrix for transmittion
+[TransmittionIsotropicSurface](TransmittionIsotropicSurface.m) - return Jones matrix for transmittion
 throught isotropic multilayer surface 
