@@ -9,8 +9,7 @@ controller
 
 [LosslessFiber](LosslessFiber.m) - retur Jones matrix for lossless fiber transmission
 
-[PolarizerRC](PolarizerRC.m) - return Jones matrix of Right circular polarizer placed at
-an angle tetta
+[PolarizerLinear](PolarizerLinear.m) -  return Jones matrix of polarizer placed at an angle
 
 [PolarizationController](PolarizationController.m) - return jones matrix for polarization controller
 
