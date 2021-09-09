@@ -15,6 +15,22 @@ jboss/server/minimal/data/**/*
 jboss/server/minimal/work/**/*
 
 # deployed package files #
-
 *.DEPLOYED
+
+# Windows default autosave extension
 *.asv
+
+# OSX / *nix default autosave extension
+*.m~
+
+# Compiled MEX binaries (all platforms)
+*.mex*
+
+# Simulink Code Generation
+slprj/
+
+# Session info
+octave-workspace
+
+# Simulink autosave extension
+.autosave
